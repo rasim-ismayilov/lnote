@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "lnote"
+version = "1.0.0"
+description = "A modern text editor for Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["PyQt6>=6.4.0"]
+
+[project.scripts]
+lnote = "lnote.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lnote*"]
+
+[tool.setuptools.package-data]
+lnote = ["../assets/*"]

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=LNote
+GenericName=Text Editor
+Comment=Modern text editor for Linux
+Exec=lnote %F
+Icon=lnote
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/x-python;application/json;text/markdown;text/x-shellscript;
+StartupNotify=true
+StartupWMClass=LNote
+Keywords=editor;text;notepad;notes;
